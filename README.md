@@ -21,19 +21,13 @@ Start your apps like this:
 
 Run again: `pm2 save`
 
-Verify in `C:\PM2\pids` contains a file with name of your apps
-```
-- C:\PM2
-  -- logs
-  -- modules
-  -- pids
-    -- simple-express-pm2-windows-0.pid
-  -- dump.pm2
-  ....
-```
-
 PS:
 If you receive error: EPERM, then run commands in admin prompt
+
+Create a task schedule:  
+Use `pm2_service.bat` as an example
+
+https://stackoverflow.com/a/13173752/7168666
 
 Refs:
 - PM2 in Windowns: https://thomasswilliams.github.io/2020/04/07/installing-pm2-windows.html
